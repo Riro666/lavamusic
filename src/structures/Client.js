@@ -67,7 +67,7 @@ class MusicBot extends Client {
   }
   connect() {
     return super.login(this.token);
-  };
-};
+  }
+}
 
 module.exports = MusicBot;
